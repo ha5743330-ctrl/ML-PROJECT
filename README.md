@@ -16,6 +16,7 @@ Install requirements.txt
 Add API key in .env
 
 Run streamlit run app.py
+
 📈 Business Value & Market Impact
 1. The Problem
 Sales teams and agencies spend an average of 10-15 minutes researching a prospect and drafting a personalized cold email. For a company sending 100 emails a day, this is a massive manual overhead.
