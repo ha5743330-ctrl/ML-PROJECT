@@ -9,6 +9,12 @@ from dotenv import load_dotenv
 # .env file se variables load karne ke liye (Local VS Code setup)
 load_dotenv()
 
+# app.py ke start mein
+password = st.sidebar.text_input("Enter Access Key", type="password")
+if password != "admin123": # Aap koi bhi password rakh sakte hain
+    st.warning("Please enter the correct Access Key to use the AI.")
+    st.stop() # Neeche wala saara code ruk jayega
+
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="LeadGenie AI", page_icon="🚀", layout="wide")
 
